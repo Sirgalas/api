@@ -1,0 +1,15 @@
+const artists =[
+    {
+        id:1,
+        name:'Sabaton'
+    },
+    {
+        id:2,
+        name:"Mettalica"
+    },
+    {
+        id:3,
+        name:"Deep Purple"
+    }
+]
+exp

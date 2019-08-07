@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Sirgalas/api/issues"
   },
-  "homepage": "https://github.com/Sirgalas/api#readme"
+  "homepage": "https://github.com/Sirgalas/api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "config": "^3.1.0",
+    "mongoose": "^5.6.0"
+  }
 }
