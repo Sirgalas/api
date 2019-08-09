@@ -1,17 +1,7 @@
-var artists =[
-    {
-        id:1,
-        name:'Sabaton'
-    },
-    {
-        id:2,
-        name:"Mettalica"
-    },
-    {
-        id:3,
-        name:"Deep Purple"
-    }
-];
+const artist = require('../models/artist');
+
+
+
 exports.findAll = function(req,res){
     res.send(artists);
 }

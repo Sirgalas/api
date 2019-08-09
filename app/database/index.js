@@ -20,6 +20,6 @@ Mongoose.connection.on('error', function(err) {
 Mongoose.Promise = global.Promise;
 module.exports = { Mongoose, 
 	models: {
-		actours: require('./schemas/message.js'),
+		artist: require('./schemas/artist.js'),
 	}
 };

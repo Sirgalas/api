@@ -13,12 +13,6 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 require('./app/routers/router.js')(app);
 
-MongoClient.connect('mongodb://localhost:27017/myapi',function(err,database){
-  if(err){
-    return console.log(err);
-  }
-  db=database;
-  app.listen(3012,function(){
-      console.log('API app started')
-  });
+app.listen(3012,function(){
+    console.log('API app started')
 });
