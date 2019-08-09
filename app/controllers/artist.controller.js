@@ -1,9 +1,7 @@
-const artist = require('../models/artist');
-
-
+const artistsModel = require('../models/artist');
 
 exports.findAll = function(req,res){
-    res.send(artists);
+    res.send(artistsModel.findAll);
 }
 
 exports.create=function(req,res){

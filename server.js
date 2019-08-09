@@ -5,7 +5,6 @@
 const experss = require('express');
 const bodyParser = require('body-parser');
 const app = experss();
-var MongoClient = require('mongoDB').MongoClient;
 
 var db;
 app.use(bodyParser.json());
