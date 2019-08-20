@@ -20,5 +20,6 @@ Mongoose.Promise = global.Promise;
 module.exports = { Mongoose, 
 	models: {
 		artist: require('./schemas/artist.js'),
+		
 	}
 };
