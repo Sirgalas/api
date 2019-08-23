@@ -6,12 +6,9 @@ exports.findAll = function(req,res){
 
 exports.create=function(req,res){
     if(!req.body) return res.sendStatus(400);
-    var artist={
-        id:Date.now(),
-        name:req.body.name
-    }
-    artists.push(artist);
-    res.send(artist);
+    console.log()
+    let x=artistsModel.create(req.body);
+    res.send(x);
 }
 
 exports.update=function(req,res){
