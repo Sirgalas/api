@@ -5,7 +5,7 @@ exports.findAll = function(req,res){
 }
 
 exports.create=function(req,res){
-    if(!req.body) return res.sendStatus(400);
+    if(!req.body) return res.sendStatus(500);
     console.log()
     let x=artistsModel.create(req.body);
     res.send(x);
